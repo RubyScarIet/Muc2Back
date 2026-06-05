@@ -12,7 +12,7 @@ npm install
 **Bước 2:** Cấu hình Cơ sở dữ liệu (Database)
 - Đổi tên file `.env.example` thành `.env`
 - Mở file `.env` và điền đường dẫn kết nối MongoDB của bạn vào biến `DB_URL`.
-Ví dụ: `DB_URL=mongodb+srv://nguyentrungtinb23dcvt416%40gmai.com:000569@cuoiki.ofendqh.mongodb.net/photo_sharing?appName=CuoiKi`
+Ví dụ: `DB_URL=mongodb+srv://nguyentrungtinb23dcvt416_db_user:000569@cuoiki.ofendqh.mongodb.net/photo_sharing?appName=CuoiKi`
 
 **Bước 3:** Nạp dữ liệu mẫu vào DB (Chỉ cần chạy 1 lần duy nhất)
 ```bash
