@@ -18,7 +18,7 @@ app.use("/user", UserRouter);
 app.use("/", PhotoRouter);
 
 app.get("/", (req, res) => {
-  res.send("Backend Lab 2TH2 (Mức 2) is running!");
+  res.send("Backend is running!");
 });
 
 const PORT = process.env.PORT || 8081;
